@@ -40,6 +40,15 @@ textarea {
     font-family: inherit;
 }
 
+#translate-output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    border: 1px solid var(--black);
+
+}
 button {
     color: #0369A1;
     background-color: var(--primary);

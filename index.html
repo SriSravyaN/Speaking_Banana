@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minion-Language</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+          background-color: #818CF8;
+        }
+        </style>
 </head>
 <body>
     <nav>
@@ -14,8 +19,17 @@
         
     </nav>
     <main>
-        <textarea id="input-area"> </textarea>
-    <button id="btn-translate">Translate to Banana</button>
+        <textarea id="translate-input"
+        placeholder="Put your message here which you want to convert to banana language"> </textarea>
+
+    <button id="translate-button">Translate to Banana</button>
+    <div style="color:navy;">Translation here 👇</div>
+    <textarea id="translate-output" 
+    style="padding: 1rem;
+  color:#0369A1;
+    font-size: large;">
+    </textarea>
+    
     <script src="app.js" type="text/javascript"> </script>
     </main>
     
